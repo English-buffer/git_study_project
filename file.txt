@@ -1,0 +1,9 @@
+git add . 将文件从工作区提交到暂存区
+git commit -m "输入更改信息" 将文件从工作区提交到仓库
+git status 查看状态
+git log 查看提交记录
+git branch 查看分支 
+git checkout 切换分支
+git checkout -b 分支名 创建并切换分支
+git merge 分支名 合并分支（首先切换到目标分支上）
+
