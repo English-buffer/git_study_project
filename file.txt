@@ -9,4 +9,8 @@ git checkout -b 分支名 创建并切换分支
 git merge 分支名 合并分支（首先切换到目标分支上）
 git remote add 仓库名 地址 链接远程仓库
 git remote 查看链接的仓库
-git pull 仓库名 分支名 将本地仓库，推送到远程仓库上
+git push 仓库名 分支名 将本地仓库，推送到远程仓库上
+
+git clone ssh地址 仓库名字 将远程仓库全部下载下来（仓库名字如果不填将会默认）
+git fetch 抓取远程仓库的更新的数据
+git pull 拉取远程仓库的更新数据（相当于fetch+merge）
